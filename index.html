@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Odin Project Drawing</title>
+        <link rel="stylesheet" type="text/css" href="style.css" /> 
+    </head>
+    <body>
+        <div class="optionBox">
+            <div id="openingPrompt">
+                <label for="numberOf">How many boxes? (X by X size grid)</label><br />
+                <input name="numberOf" id="numberOf" type="number" min="2" max="100"/><br />
+                <button id="numberOfButton">Create</button>
+            </div>
+            <div id="editPrompt" class="hide">
+                <button id="resetArt">Reset</button>
+            </div>
+        </div>
+        <div id="theContainer">
+
+        </div>
+    </body>
+    <script src="script.js" defer></script>
+</html>
